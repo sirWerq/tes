@@ -278,9 +278,62 @@ footer .cp {
     font-size: 12px;
 }
 
-
-
-
+@media (max-width: 480px) {
+    .logo>h2{
+        font-size: 20px;
+    }
+    #header #navbar {
+        padding: 10px;
+    }
+    .nav>ul>li>a {
+        padding: 8px;
+    }
+    body {
+        font-size: 14px;
+    }
+    #article1>section>h1{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    #slide>.img-container>img {
+        width: 360px;
+        height: 400px;
+    }
+    #article2>.satu{
+        flex: 100%;
+    }
+    #article2>.dua{
+        flex: 100%;
+    }
+    #article2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #article2>.dua>.form-container{
+        width: 100%;
+    }
+    #article3 {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    .list .number {
+        padding: 10px;
+    }
+    .list .text {
+        text-align: start;
+    }
+    #article3 .list {
+        padding: 10px;
+    }
+    .item-container {
+        grid-template-columns: auto;
+    }
+    .call-container h1 {
+        font-size: 20px;
+    }
+}
 
 
 
